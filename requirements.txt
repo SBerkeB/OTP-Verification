@@ -1,0 +1,9 @@
+pyjwt
+boto3
+fastapi
+uvicorn
+python-dotenv
+pymongo
+python-multipart
+jinja2
+pyotp
