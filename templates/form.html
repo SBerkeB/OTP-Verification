@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <link href="{{ url_for('static', path='/index.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <form method="post" action="/send_mail" id="form" class="validate">
+        <div class="form-field">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" placeholder="Sweepher" required />
+        </div>
+        <div class="form-field">
+          <label for="mail_address">Email</label>
+          <input type="email" name="mail_address" id="mail_address" placeholder="sweepher@domain.com" required />
+        </div>
+        <div class="form-field">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required />
+        </div>
+        <div class="form-field">
+          <label for=""></label>
+          <input type="submit" value="Sign Up" />
+        </div>
+      </form>
+</body>
+

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+    <link href="{{ url_for('static', path='/index.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <form method="post" action="/verification_post" id="form" class="validate">
+        <div class="form-field">
+          <label for="otp_code">Verification Code</label>
+          <input type="text" name="otp_code" id="otp_code" placeholder="123456" required />
+        </div>
+      </form>
+</body>
+
