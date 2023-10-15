@@ -7,3 +7,4 @@ pymongo
 python-multipart
 jinja2
 pyotp
+python-multipart
